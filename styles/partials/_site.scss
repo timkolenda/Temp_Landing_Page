@@ -1,0 +1,25 @@
+
+
+.site {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    position: relative;
+    &__background-one {
+        top: 0;
+        left: 0;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+    &__message {
+        text-align: center;
+        margin: auto;  
+        text-transform: uppercase;
+        color: black;
+        font-size: 5rem; 
+        // animation-duration: 3s;
+        // animation-delay: 10.5s;
+    }
+}
+
