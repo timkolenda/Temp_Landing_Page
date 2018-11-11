@@ -17,9 +17,23 @@
         margin: auto;  
         text-transform: uppercase;
         color: black;
-        font-size: 5rem; 
-        // animation-duration: 3s;
-        // animation-delay: 10.5s;
+        font-size: 5rem;
+        // animation-delay: 12s;
+        // animation-duration: 5s;
+        h2 {
+            padding: 0;
+            margin: 0;
+        } 
+        .social-nav{
+            &__list {
+                display: flex;
+                justify-content: center;
+            }
+            &__list-item {
+                padding: 50px;
+                color: black;
+            }
+        }
     }
 }
 
